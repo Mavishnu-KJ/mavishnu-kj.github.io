@@ -1,43 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mavishnu KJ - Java & Spring Boot Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
-            text-align: center;
-            background: #f8f9fa;
-            color: #333;
-        }
-        h1 { color: #2c3e50; }
-        .project { margin: 30px 0; padding: 20px; border: 1px solid #ddd; border-radius: 8px; background: white; }
-        a { color: #3498db; text-decoration: none; font-weight: bold; }
-        a:hover { text-decoration: underline; }
-    </style>
-</head>
-<body>
-    <h1>Mavishnu KJ</h1>
-    <p>Senior Java Developer | Spring Boot | Microservices</p>
-    
+<section id="projects" class="projects-section">
+  <h2>Projects & Repositories</h2>
+  <p>Here are my key open-source contributions and practice work, focused on modern Java/Spring Boot development.</p>
 
-    <h2>My Projects</h2>
-
-    <div class="project">
-        <h3>Employee Management System</h3>
-        <p>Full CRUD REST API with Spring Boot, JPA, Validation, Actuator, Exception Handling</p>
-        <a href="https://github.com/Mavishnu-KJ/employeeManagementSystem" target="_blank">View on GitHub</a>
+  <!-- Project 1: EMS (Flagship) -->
+  <div class="project-card">
+    <h3>Employee Management System (EMS)</h3>
+    <p>A full-featured Spring Boot REST API with CRUD operations, pagination, search, validation, exception handling, global error responses, Actuator monitoring, and comprehensive unit/integration tests.</p>
+    <ul class="tech-stack">
+      <li>Spring Boot</li>
+      <li>Spring Data JPA</li>
+      <li>H2 Database (in-memory)</li>
+      <li>MockMvc & @DataJpaTest</li>
+      <li>JUnit 5, Mockito, AssertJ</li>
+      <li>RESTful endpoints & DTOs</li>
+    </ul>
+    <div class="project-links">
+      <a href="https://github.com/Mavishnu-KJ/employeeManagementSystem" target="_blank" class="btn">
+        View on GitHub
+      </a>
     </div>
+  </div>
 
-    <!-- Add more projects here later (Payment Wallet, E-commerce, etc.) -->
+  <!-- Project 2: Java 8–17 Coding Exercises -->
+  <div class="project-card">
+    <h3>Java 8 to 17 Coding Exercises & Interview Preparation</h3>
+    <p>100+ solved Java interview questions and exercises covering lambdas, streams, Optional, Date/Time API, functional interfaces, Collectors, records, sealed classes, text blocks, pattern matching, and more. Daily practice to master modern Java features for senior roles.</p>
+    <ul class="tech-stack">
+      <li>Java 8–17</li>
+      <li>Streams API</li>
+      <li>Functional Interfaces</li>
+      <li>Records & Sealed Classes</li>
+      <li>Pattern Matching & Text Blocks</li>
+      <li>JUnit 5 & Mockito</li>
+    </ul>
+    <div class="project-links">
+      <a href="https://github.com/Mavishnu-KJ/Java_8_To_17_Coding_Exercises" target="_blank" class="btn">
+        View on GitHub
+      </a>
+    </div>
+  </div>
 
-    <h2>Skills</h2>
-    <p>Java 8–17, Spring Boot, JPA, Microservices, REST APIs, Docker, Git, JUnit, Mockito</p>
-
-    <p>Contact: www.linkedin.com/in/mavishnu | Email : kjmavishnu@gmail.com </p>
-</body>
-</html>
+  <!-- Add more projects later here -->
+</section>

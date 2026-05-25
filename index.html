@@ -15,55 +15,85 @@
             color: #333;
         }
         h1 { color: #2c3e50; }
-        .project { margin: 30px 0; padding: 20px; border: 1px solid #ddd; border-radius: 8px; background: white; }
-        a { color: #3498db; text-decoration: none; font-weight: bold; }
+        .project { 
+            margin: 30px 0; 
+            padding: 25px; 
+            border: 1px solid #ddd; 
+            border-radius: 8px; 
+            background: white; 
+            text-align: left;
+        }
+        a { 
+            color: #3498db; 
+            text-decoration: none; 
+            font-weight: bold; 
+        }
         a:hover { text-decoration: underline; }
+        .highlight { color: #e74c3c; font-weight: bold; }
+        .status { color: #27ae60; font-weight: bold; }
+        .inprogress { color: #f39c12; font-weight: bold; }
     </style>
 </head>
 <body>
     <h1>Mavishnu KJ</h1>
-    <p>Senior Java Developer | Spring Boot | Microservices</p>
+    <p>Senior Java Backend Developer | Spring Boot | Microservices | 9+ Years</p>
+   
+    <h2>Featured Projects</h2>
     
-
-    <h2>My Projects</h2>
-
-    <div class="project">
-        <h3>Employee Management System</h3>
-        <p>Full CRUD REST API with Spring Boot, JPA, Validation, Actuator, Exception Handling</p>
-        <a href="https://github.com/Mavishnu-KJ/employee-management-system" target="_blank">View on GitHub</a>
-    </div>
-
-    <div class="project">
-        <h3>Java 8 to 17 Coding Exercises & Interview Preparation</h3>
-        <p>100+ solved Java interview questions and exercises covering lambdas, streams, Optional, Date/Time API, functional interfaces, Collectors, records, sealed classes, text blocks, pattern matching, and more. 
-          Daily practice to master modern Java features for senior roles.</p>
-        <a href="https://github.com/Mavishnu-KJ/Java_8_To_17_Coding_Exercises" target="_blank">View on GitHub</a>
-    </div>
-
-    <!-- Payment Wallet System -->
+    <!-- 1. Payment Wallet System -->
     <div class="project">
         <h3>Payment Wallet System (Microservices Architecture)</h3>
-        <p><strong>90%+ Completed | Flagship Project</strong></p>
-        <p>A distributed <span class="highlight">Microservices-based Payment Wallet System</span> built with Spring Boot 3, demonstrating real-world production-grade backend architecture.</p>
+        <p><span class="status">✅ Fully Completed</span></p>
+        <p>A production-grade Microservices-based Digital Payment Wallet System built with Spring Boot 3 and Spring Cloud.</p>
         <p><strong>Key Features:</strong></p>
         <ul>
-            <li>User Management with JWT Authentication & API Gateway</li>
-            <li>Wallet Management (Add Money, Balance Enquiry)</li>
-            <li>P2P Money Transfer using <strong>Saga Pattern</strong> for distributed transactions</li>
+            <li>JWT Authentication + API Gateway</li>
+            <li>P2P Transfers using <strong>Saga Pattern</strong></li>
             <li>Distributed Locking with Redis</li>
-            <li>Resilience Patterns (Circuit Breaker, Retry, Fallback) using Resilience4j</li>
-            <li>Rate Limiting, Real-time Notifications & Inter-service communication via Feign</li>
-            <li>Service Discovery (Eureka) + Dockerized deployment</li>
+            <li>Resilience4j (Circuit Breaker, Retry, Fallback)</li>
+            <li>Service Discovery (Eureka), OpenFeign, Rate Limiting</li>
         </ul>
-        <p><strong>Tech Stack:</strong> Spring Boot 3, Spring Cloud, Eureka, API Gateway, OpenFeign, Redis, Resilience4j, Docker, JWT</p>
+        <p><strong>Tech Stack:</strong> Spring Boot 3, Spring Cloud, Redis, Docker, JWT, Resilience4j</p>
         <a href="https://github.com/Mavishnu-KJ/payment-wallet-system" target="_blank">View on GitHub →</a>
     </div>
 
-    <!-- Add more projects here later (Payment Wallet, E-commerce, etc.) -->
+    <!-- 2. Employee Management System -->
+    <div class="project">
+        <h3>Employee Management System</h3>
+        <p><span class="status">✅ Fully Completed</span></p>
+        <p>Full CRUD REST API with clean architecture, validation, exception handling, and monitoring.</p>
+        <a href="https://github.com/Mavishnu-KJ/employee-management-system" target="_blank">View on GitHub →</a>
+    </div>
+
+    <!-- 3. Ecommerce Order System -->
+    <div class="project">
+        <h3>E-commerce Order System</h3>
+        <p><span class="inprogress">🔄 In Progress (10% Completed)</span></p>
+        <p>Building a microservices-based order processing system with features like order placement, inventory management, and payment integration.</p>
+        <a href="https://github.com/Mavishnu-KJ/ecommerce-order-system" target="_blank">View on GitHub</a>
+    </div>
+
+    <!-- 4. LLD Practice -->
+    <div class="project">
+        <h3>Low-Level Design (LLD) Practice</h3>
+        <p>Practiced and implemented <strong>12 LLDs</strong> covering key design patterns and real-world scenarios (Parking Lot, Vending Machine, BookMyShow, etc.).</p>
+        <a href="https://github.com/Mavishnu-KJ/LLD-Practice" target="_blank">View on GitHub</a>
+    </div>
+
+    <!-- 5. Java Coding Exercises -->
+    <div class="project">
+        <h3>Java 8 to 17 Coding Exercises & Interview Preparation</h3>
+        <p>100+ solved problems focused on modern Java features – Lambdas, Streams, Optional, Records, Sealed Classes, etc.</p>
+        <a href="https://github.com/Mavishnu-KJ/Java_8_To_17_Coding_Exercises" target="_blank">View on GitHub →</a>
+    </div>
 
     <h2>Skills</h2>
-    <p>Java 8–17, Spring Boot, JPA, Microservices, REST APIs, Docker, Git, JUnit, Mockito</p>
-
-    <p>Contact: www.linkedin.com/in/mavishnu | Email : kjmavishnu@gmail.com </p>
+    <p>Java 8–17, Spring Boot 3, Microservices, Spring Cloud, REST APIs, JPA, Redis, Docker, Resilience4j, JWT, Git, JUnit, Mockito</p>
+    
+    <p>
+        <strong>Contact:</strong> 
+        <a href="https://www.linkedin.com/in/mavishnu" target="_blank">LinkedIn</a> | 
+        kjmavishnu@gmail.com
+    </p>
 </body>
 </html>
